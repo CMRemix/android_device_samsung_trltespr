@@ -1,22 +1,19 @@
 # GPS
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
-etc/permissions/com.qualcomm.location.xml
-lib/libloc_api_v02.so
 vendor/lib/hw/flp.default.so
-vendor/lib/libalarmservice_jni.so
+lib/libloc_api_v02.so
 vendor/lib/libgeofence.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
 vendor/lib/liblocationservice.so
 vendor/lib/libulp2.so
 
-# NFC
-vendor/firmware/sec_s3fwrn5_firmware.bin
-
 # Qualcomm framework
+vendor/lib/libmdmdetect.so
+vendor/lib/libconfigdb.so
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
+vendor/lib/libnetmgr.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqmi.so
 vendor/lib/libqmi_cci.so
@@ -25,6 +22,24 @@ vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
+vendor/lib/libflp.so
+vendor/lib/libdataitems.so
+vendor/lib/liblowi_client.so
+lib/libagc_max.so
+lib/libqservice.so
+lib/libtinyxml.so
+lib/libqdutils.so
+lib/libjpegehw.so
+lib/libjpegdhw.so
+lib/libedmnativehelper.so
+lib/libbt-iopdb.so
+lib/libbt-iopdb_mod.so
+lib/libbt-vendor.so
+lib/libbt-codec_aptx.so
+lib/libbt-aptX-ARM-4.2.2.so
+lib/libbt-codec_sshd.so
+lib/libshdace.so
+lib/libprotobuf-cpp-full.so
 
 # Radio
 bin/efsks
@@ -35,17 +50,10 @@ bin/qcks
 bin/qmuxd
 bin/rild
 bin/rmnetcli
-lib/libcfiril.so
 lib/libreference-ril.so
 lib/libril.so
 lib/librmnetctl.so
 lib/libsec-ril.so
 lib/libsecnativefeature.so
 lib/libsecril-client.so
-lib/librilswitch.so
-lib/libsec-ril.so
-vendor/lib/libconfigdb.so
-vendor/lib/libmdmdetect.so
 vendor/lib/libril-qcril-hook-oem.so
-vendor/lib/libtime_genoff.so
-vendor/lib/libxml.so
